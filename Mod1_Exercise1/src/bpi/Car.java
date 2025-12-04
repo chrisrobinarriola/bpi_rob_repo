@@ -1,8 +1,8 @@
-package bpi.oop.training;
+package bpi;
 
 public class Car {
-	String brand, model, color;
-	int engineNumber;
+	private String brand, model, color;
+	private int engineNumber;
 	
 	public Car(String brand, String model, String color, int engineNumber) {
 		this.brand = brand;
@@ -12,7 +12,18 @@ public class Car {
 	}
 	
 	public Car() {
-		
+		this.brand = "";
+		this.model = "";
+		this.color = "";
+		this.engineNumber = 0;
+	}
+	
+	public void setBrand(String brand) {
+		this.brand =  brand;
+	}
+	
+	public String getBrand() {
+		return this.brand;
 	}
 	
 	public void setModel(String model) {
