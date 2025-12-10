@@ -10,7 +10,7 @@ public class Truck extends Vehicle implements Refuelable{
 	@Override
 	public void refuel() {
 		// TODO Auto-generated method stub
-		System.out.println(brand + " truck refueled.");
+		System.out.println(brand + " truck refueled. All " + numberOfWheels + " wheels are in good condition!");
 	}
 
 	@Override
