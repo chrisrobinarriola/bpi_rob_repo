@@ -1,8 +1,0 @@
-/**
- * 
- */
-/**
- * 
- */
-module BPI_Training {
-}
